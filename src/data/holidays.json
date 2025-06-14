@@ -1,0 +1,22 @@
+[
+  { "title": "New Year's Day", "date": "2025-01-01" },
+  { "title": "Makar Sankranti / Pongal", "date": "2025-01-14" },
+  { "title": "Republic Day", "date": "2025-01-26" },
+  { "title": "Maha Shivaratri", "date": "2025-03-01" },
+  { "title": "Holi", "date": "2025-03-10" },
+  { "title": "Good Friday", "date": "2025-04-18" },
+  { "title": "Eid-ul-Fitr", "date": "2025-04-29" },
+  { "title": "Buddha Purnima", "date": "2025-05-23" },
+  { "title": "Bakrid / Eid-ul-Adha", "date": "2025-06-17" },
+  { "title": "Muharram", "date": "2025-07-06" },
+  { "title": "Independence Day", "date": "2025-08-15" },
+  { "title": "Raksha Bandhan", "date": "2025-08-18" },
+  { "title": "Janmashtami", "date": "2025-08-29" },
+  { "title": "Ganesh Chaturthi", "date": "2025-09-07" },
+  { "title": "Milad-un-Nabi (Birthday of Prophet Muhammad)", "date": "2025-09-30" },
+  { "title": "Gandhi Jayanti", "date": "2025-10-02" },
+  { "title": "Dussehra / Vijayadashami", "date": "2025-10-12" },
+  { "title": "Diwali / Deepavali", "date": "2025-10-21" },
+  { "title": "Guru Nanak Jayanti", "date": "2025-11-15" },
+  { "title": "Christmas Day", "date": "2025-12-25" }
+]

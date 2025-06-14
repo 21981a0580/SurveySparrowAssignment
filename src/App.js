@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import HeaderNav from './components/HeaderNav';
+import Calendar from './components/Calendar';
+import EventList from './components/EventList';
+import PublicHolidays from './components/PublicHolidays';
+import Festivals from './components/Festivals';
+import EventDashboard from './components/EventDashboard';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-gray-100">
+      <HeaderNav />
+      <div className="p-4">
+        <Routes>
+          <Route path="/" element={<Calendar />} />
+          <Route path="/dashboard" element={<EventDashboard />} />
+          <Route path="/events" element={<EventList />} />
+          <Route path="/holidays" element={<PublicHolidays />} />
+          <Route path="/festivals" element={<Festivals />} />
+        </Routes>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
